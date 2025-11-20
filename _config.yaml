@@ -1,13 +1,3 @@
 theme: jekyll-theme-cayman
-
-title: "My Site"
-name: "My Name"
-description: "My website."
-
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-include-cache
-
-markdown: kramdown
-highlighter: rouge
+title: "Test"
+description: "Test"
