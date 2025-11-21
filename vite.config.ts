@@ -8,7 +8,7 @@ export default defineConfig(({ mode }) => ({
   // Set base to your repository name for GitHub Pages
   // e.g., if your repo is github.com/username/my-portfolio, set base: '/my-portfolio/'
   // For custom domain or username.github.io, use base: '/'
-  base: 'augustin-laouar.github.io/augustin-laouar.github.io',
+  base: '/',
   server: {
     host: "::",
     port: 8080,
