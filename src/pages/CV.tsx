@@ -300,11 +300,35 @@ const CV = () => {
                     "Go",
                     "Python",
                     "Java",
-                    "JavaScript/HTML/CSS",
+                    "PHP",
+                    "JavaScript",
+                    "HTML",
+                    "CSS"
                   ].map((skill) => (
                     <span
                       key={skill}
                       className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm"
+                    >
+                      {skill}
+                    </span>
+                  ))}
+                </div>
+              </div>
+
+              <div>
+                <h3 className="font-semibold mb-3 text-lg">Tools</h3>
+                <div className="flex flex-wrap gap-2">
+                  {[
+                    "RIPE Atlas",
+                    "Wireshark", 
+                    "Ghidra", 
+                    "NS-3",
+                    "Nmap",
+                    "AWS"
+                  ].map((skill) => (
+                    <span
+                      key={skill}
+                      className="px-3 py-1 bg-secondary/10 text-secondary rounded-full text-sm"
                     >
                       {skill}
                     </span>
