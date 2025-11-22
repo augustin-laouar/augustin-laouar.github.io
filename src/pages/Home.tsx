@@ -9,8 +9,8 @@ const Home = () => {
       <section className="container mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-32">
         <div className="max-w-4xl mx-auto text-center space-y-8">
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-serif font-bold tracking-tight">
-            Research in{" "}
-            <span className="text-primary">Computational Science</span>
+            Augustin{" "}
+            <span className="text-primary">Laouar</span>
           </h1>
           <p className="text-xl sm:text-2xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
             Exploring the intersection of artificial intelligence, data science, and human-computer interaction

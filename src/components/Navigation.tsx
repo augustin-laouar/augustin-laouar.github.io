@@ -21,7 +21,7 @@ const Navigation = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           <Link to="/" className="text-xl font-serif font-semibold text-foreground hover:text-primary transition-colors">
-            Portfolio
+            Augustin Laouar
           </Link>
 
           <div className="hidden md:flex items-center gap-8">
