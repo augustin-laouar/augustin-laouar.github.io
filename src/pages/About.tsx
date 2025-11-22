@@ -11,21 +11,24 @@ const About = () => {
           <div className="grid md:grid-cols-3 gap-8 mb-12">
             <div className="md:col-span-2 space-y-6 text-lg leading-relaxed">
               <p>
-                I am a doctoral student in Computer Science at the University of Research, 
-                specializing in machine learning and artificial intelligence. My research focuses 
-                on developing interpretable and ethical AI systems that can be reliably deployed 
-                in high-stakes domains such as healthcare and finance.
+                I am a doctoral student at the École Normale Supérieure de Lyon, specializing  
+                in networking with a strong emphasis on privacy and security. My research focuses 
+                on the architecture of Internet systems, with an emphasis on network performance 
+                and privacy.
               </p>
               <p>
-                Before pursuing my PhD, I completed my Master's degree in Data Science and worked 
-                as a research engineer at TechCorp, where I led projects on natural language 
-                processing and computer vision applications.
+                Before beginning my PhD, I completed a Master's degree in Networking and  
+                Security and worked as a research engineer at the École Normale Supérieure de  
+                Lyon, where I conducted empirical studies on the network performance of IoT 
+                devices.
               </p>
               <p>
-                My approach combines rigorous theoretical foundations with practical applications, 
-                always keeping in mind the societal impact of the technologies we create. I am 
-                passionate about making AI more transparent, fair, and accessible to all.
+                My approach combines rigorous theoretical foundations with practical  
+                applications, always considering the societal impact of the technologies we  
+                create. I am passionate about making the Internet more transparent and  
+                respectful of users' privacy.  
               </p>
+
             </div>
             
             <div className="space-y-6">
@@ -37,10 +40,10 @@ const About = () => {
                     className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors"
                   >
                     <Mail className="h-4 w-4" />
-                    <span className="text-sm">researcher@university.edu</span>
+                    <span className="text-sm">name.lastname@ens-lyon.fr</span>
                   </a>
                   <a 
-                    href="https://github.com" 
+                    href="https://github.com/augustin-laouar" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors"
@@ -49,7 +52,7 @@ const About = () => {
                     <span className="text-sm">GitHub Profile</span>
                   </a>
                   <a 
-                    href="https://linkedin.com" 
+                    href="https://www.linkedin.com/in/augustin-laouar-b3b791225/" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors"
@@ -69,31 +72,34 @@ const About = () => {
                 <GraduationCap className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
                 <div>
                   <h3 className="text-xl font-semibold">PhD in Computer Science</h3>
-                  <p className="text-muted-foreground">University of Research, 2021 - Present</p>
+                  <p className="text-muted-foreground">École Normale Supérieure de Lyon, March 2025 - Present</p>
                   <p className="mt-2">
-                    Thesis: "Interpretable Machine Learning for Healthcare Decision Support Systems"
+                    Research focus: architecture of Internet systems with an emphasis on network performance and privacy.
                   </p>
                   <p className="mt-1 text-sm text-muted-foreground">
-                    Advisor: Prof. Jane Smith
+                    Advisor: Francesco Bronzino, Loïc Desgeorges
                   </p>
                 </div>
               </div>
               <div className="flex gap-4">
                 <GraduationCap className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
                 <div>
-                  <h3 className="text-xl font-semibold">MSc in Data Science</h3>
-                  <p className="text-muted-foreground">Tech University, 2019 - 2021</p>
+                  <h3 className="text-xl font-semibold">MSc in Computer Science</h3>
+                  <p className="text-muted-foreground">Université Claude Bernard Lyon 1, 2022 - 2024</p>
                   <p className="mt-2">
-                    Graduated with Distinction. Thesis on neural network optimization techniques.
-                  </p>
+                  Graduated with a GPA of 3.9/4.0 and completed an apprenticeship as a network engineer at
+                  <a href="https://www.viveris.fr" target="_blank" rel="noopener noreferrer">Viveris</a>.                  </p>
                 </div>
               </div>
               <div className="flex gap-4">
                 <GraduationCap className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
                 <div>
                   <h3 className="text-xl font-semibold">BSc in Computer Science</h3>
-                  <p className="text-muted-foreground">State University, 2016 - 2019</p>
-                  <p className="mt-2">First Class Honours</p>
+                  <p className="text-muted-foreground">Université de Lorraine, 2019 - 2022</p>
+                  <p className="mt-2">
+                    Graduated with a GPA of 4.0/4.0 and completed an internship as a software engineer at
+                    <a href="https://worldline.com/" target="_blank" rel="noopener noreferrer">WorldLine</a>. 
+                  </p>
                 </div>
               </div>
             </div>
@@ -103,35 +109,11 @@ const About = () => {
             <h2 className="text-3xl font-serif font-semibold mb-6">Research Interests</h2>
             <div className="grid sm:grid-cols-2 gap-4">
               <div className="bg-card border border-border p-4 rounded-lg">
-                <h3 className="font-semibold mb-2">Machine Learning</h3>
+                <h3 className="font-semibold mb-2">Geolocation systems</h3>
                 <ul className="text-sm text-muted-foreground space-y-1">
-                  <li>• Deep Learning</li>
-                  <li>• Reinforcement Learning</li>
-                  <li>• Transfer Learning</li>
-                </ul>
-              </div>
-              <div className="bg-card border border-border p-4 rounded-lg">
-                <h3 className="font-semibold mb-2">AI Ethics</h3>
-                <ul className="text-sm text-muted-foreground space-y-1">
-                  <li>• Fairness in AI</li>
-                  <li>• Explainable AI</li>
-                  <li>• Privacy-Preserving ML</li>
-                </ul>
-              </div>
-              <div className="bg-card border border-border p-4 rounded-lg">
-                <h3 className="font-semibold mb-2">Natural Language Processing</h3>
-                <ul className="text-sm text-muted-foreground space-y-1">
-                  <li>• Large Language Models</li>
-                  <li>• Sentiment Analysis</li>
-                  <li>• Machine Translation</li>
-                </ul>
-              </div>
-              <div className="bg-card border border-border p-4 rounded-lg">
-                <h3 className="font-semibold mb-2">Computer Vision</h3>
-                <ul className="text-sm text-muted-foreground space-y-1">
-                  <li>• Object Detection</li>
-                  <li>• Medical Image Analysis</li>
-                  <li>• Video Understanding</li>
+                  <li>• Network Performances</li>
+                  <li>• Users' privacy</li>
+                  <li>• System Architecture</li>
                 </ul>
               </div>
             </div>
