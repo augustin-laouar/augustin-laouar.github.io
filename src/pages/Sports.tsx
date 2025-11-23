@@ -42,7 +42,8 @@ const Sports = () => {
             <img
                 src="/images/boxing.jpg"
                 alt="Boxing"
-                className="w-full max-h-96 object-contain rounded-lg mb-6 bg-black/5 p-2 shadow mx-auto"
+                className="w-full max-w-md mx-auto rounded-xl object-cover"
+                style={{ maxHeight: "500px" }}              
             />
             </div>
 
@@ -60,12 +61,14 @@ const Sports = () => {
                 <img
                 src="/images/climbing.jpg"
                 alt="Me climbing"
-                className="w-full max-h-48 object-contain rounded-lg bg-black/5 p-2 shadow mx-auto"
+                className="w-full max-w-md mx-auto rounded-xl object-cover"
+                style={{ maxHeight: "500px" }}  
                 />
                 <img
                 src="/images/ski.jpg"
                 alt="Me Skiing"
-                className="w-full max-h-48 object-contain rounded-lg bg-black/5 p-2 shadow mx-auto"
+                className="w-full max-w-md mx-auto rounded-xl object-cover"
+                style={{ maxHeight: "500px" }}  
                 />
             </div>
             </div>
