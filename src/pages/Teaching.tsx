@@ -33,7 +33,7 @@ const Teaching = () => {
                   </p>
                 </div>
                 <Button asChild>
-                  <a href="/l3-rust.pdf" download>
+                  <a href="/teaching/l3-rust.pdf" download>
                     <FileDown className="mr-2 h-4 w-4" />
                     Download
                   </a>
@@ -59,7 +59,7 @@ const Teaching = () => {
                   </p>
                 </div>
                 <Button asChild>
-                  <a href="/m2-lab1.pdf" download>
+                  <a href="/teaching/m2-lab1.pdf" download>
                     <FileDown className="mr-2 h-4 w-4" />
                     Download
                   </a>
@@ -74,7 +74,7 @@ const Teaching = () => {
                   </p>
                 </div>
                 <Button asChild>
-                  <a href="/m2-lab2.pdf" download>
+                  <a href="/teaching/m2-lab2.pdf" download>
                     <FileDown className="mr-2 h-4 w-4" />
                     Download
                   </a>
@@ -89,7 +89,7 @@ const Teaching = () => {
                   </p>
                 </div>
                 <Button asChild>
-                  <a href="/m2-lab3.pdf" download>
+                  <a href="/teaching/m2-lab3.pdf" download>
                     <FileDown className="mr-2 h-4 w-4" />
                     Download
                   </a>
@@ -104,7 +104,7 @@ const Teaching = () => {
                   </p>
                 </div>
                 <Button asChild>
-                  <a href="/m2-lab3-code.zip" download>
+                  <a href="/teaching/m2-lab3-code.zip" download>
                     <FileDown className="mr-2 h-4 w-4" />
                     Download
                   </a>
