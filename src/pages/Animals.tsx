@@ -20,39 +20,51 @@ const Animals = () => {
 
         {/* INTRO */}
         <p className="text-lg text-muted-foreground leading-relaxed mb-10">
-            I have always loved animals, all of them, even spiders 
-            (although I prefer them at a safe distance). I try to support animal
-            welfare associations whenever possible, and I hope to take part in
-            volunteer work myself once I find the time to commit to it properly.
-            Below are the animals who have shared my life in recent years.  
-            I have also had other companions in the past, including fish, hamsters,
-            and a cat.
+          I have always loved animals — all of them, even spiders 
+          (although I prefer them at a safe distance). I try to support animal
+          welfare associations whenever possible, and I hope to take part in
+          volunteer work myself once I find the time to commit to it properly.
+          Below are the animals who have shared my life in recent years.  
+          I have also had other companions in the past, including fish, hamsters,
+          and a cat.
         </p>
 
-        <div className="space-y-8">
+        <div className="space-y-12">
 
-          {/* Suki */}
+          {/* SUKI */}
           <div className="bg-card border border-border p-6 rounded-lg">
             <h2 className="text-2xl font-serif font-semibold mb-2">Suki</h2>
             <p className="text-muted-foreground leading-relaxed">
-                Suki is a Russian Blue cat, born in April 2025 and adopted in
-                September 2025. Intelligent, affectionate, and a real ball of energy.            
+              Suki is a Russian Blue cat, born in April 2025 and adopted in
+              September 2025. Intelligent, affectionate, and a real ball of 
+              energy, she brings an incredible amount of life and curiosity to 
+              the home.
             </p>
+            <img
+              src="/images/suki.jpg"
+              alt="Suki"
+              className="w-full h-64 object-cover rounded-lg mb-4 shadow"
+            />
           </div>
 
-          {/* Jack */}
+          {/* JACK */}
           <div className="bg-card border border-border p-6 rounded-lg">
             <h2 className="text-2xl font-serif font-semibold mb-2">Jack</h2>
             <p className="text-muted-foreground leading-relaxed">
-                Jack was a European Shorthair cat, born in February 2011 and passed
-                away in June 2024. Adopted in 2014 from the French Society for the
-                Protection of Animals (SPA), he was a deeply loyal and gentle
-                companion. He was a true star in the neighborhood, known and loved by
-                everyone.
+              Jack was a European Shorthair cat, born in February 2011 and 
+              passed away in June 2024. Adopted in 2014 from the French Society 
+              for the Protection of Animals (SPA), he was a deeply loyal and 
+              gentle companion. He was a true star in the neighborhood, known 
+              and loved by everyone.
             </p>
+            <img
+              src="/images/jack.jpg"
+              alt="Jack"
+              className="w-full h-64 object-cover rounded-lg mb-4 shadow"
+            />
           </div>
 
-          {/* Tuti */}
+          {/* TUTI */}
           <div className="bg-card border border-border p-6 rounded-lg">
             <h2 className="text-2xl font-serif font-semibold mb-2">Tuti</h2>
             <p className="text-muted-foreground leading-relaxed">
@@ -60,6 +72,11 @@ const Animals = () => {
               away in January 2025. Despite his small size, he brought a lot of
               joy and energy to everyday life.
             </p>
+            <img
+              src="/images/tuti.jpg"
+              alt="Tuti"
+              className="w-full h-64 object-cover rounded-lg mb-4 shadow"
+            />
           </div>
 
         </div>

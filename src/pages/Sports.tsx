@@ -29,13 +29,6 @@ const Sports = () => {
             {/* BOXING SECTION */}
             <div className="bg-card border border-border p-6 rounded-lg">
             <h2 className="text-2xl font-serif font-semibold mb-4">Boxing</h2>
-
-            <img
-                src="/images/boxing.jpg"
-                alt="Boxing"
-                className="w-full h-auto rounded-lg object-cover mb-6 shadow"
-            />
-
             <p className="text-muted-foreground leading-relaxed">
                 I am a French elite amateur boxer and have been training since
                 2017. Over the years, I have competed in several dozen amateur
@@ -46,6 +39,11 @@ const Sports = () => {
                 part of my daily routine, shaping my resilience and focus,
                 qualities that naturally carry over into my research work.
             </p>
+            <img
+                src="/images/boxing.jpg"
+                alt="Boxing"
+                className="w-full h-auto rounded-lg object-cover mb-6 shadow"
+            />
             </div>
 
             {/* OTHER SPORTS SECTION */}
