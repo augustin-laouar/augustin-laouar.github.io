@@ -17,7 +17,7 @@ const CV = () => {
               Curriculum Vitae
             </h1>
             <Button variant="outline" asChild>
-              <a href="/cv.pdf" download>
+              <a href="/resume.pdf" download>
                 <Download className="mr-2 h-4 w-4" />
                 Download PDF
               </a>
