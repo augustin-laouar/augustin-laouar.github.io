@@ -36,7 +36,7 @@ const Home = () => {
           </h1>
 
           <p className="text-xl sm:text-2xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Exploring the intersection of Networking, Privacy, and System Architecture
+            PhD student exploring the intersection of networking, privacy, and system architecture
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
