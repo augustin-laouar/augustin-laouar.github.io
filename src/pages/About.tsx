@@ -40,7 +40,7 @@ const About = () => {
                 <img
                   src="/images/profile.png"
                   alt="Profile photo"
-                  className="w-32 h-32 rounded-full object-cover mx-auto mb-6 shadow"
+                  className="w-48 h-48 rounded-full object-cover mx-auto mb-6 shadow"
                 />
               </div>
 
