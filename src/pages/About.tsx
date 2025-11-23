@@ -1,5 +1,6 @@
 import { Mail, Github, Linkedin, GraduationCap } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -95,6 +96,26 @@ const About = () => {
                   <li>• System Architecture</li>
                 </ul>
               </div>
+            </div>
+          </section>
+
+          {/* BEYOND RESEARCH */}
+          <section className="mt-16">
+            <h2 className="text-3xl font-serif font-semibold mb-4">Beyond Research</h2>
+
+            <p className="text-muted-foreground leading-relaxed mb-6">
+              Outside of research, I enjoy spending time with animals and practicing
+              boxing and various other sports. You can learn more below.
+            </p>
+
+            <div className="flex flex-col sm:flex-row gap-4">
+              <Button asChild variant="outline">
+                <Link to="/animals">My Animals</Link>
+              </Button>
+
+              <Button asChild variant="outline">
+                <Link to="/sports">Sports</Link>
+              </Button>
             </div>
           </section>
         </div>

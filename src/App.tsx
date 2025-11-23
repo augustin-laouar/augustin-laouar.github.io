@@ -10,6 +10,8 @@ import Publications from "./pages/Publications";
 import CV from "./pages/CV";
 import News from "./pages/News";
 import Teaching from "./pages/Teaching";
+import Animals from "./pages/Animals";
+import Sports from "./pages/Sports";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -28,6 +30,8 @@ const App = () => (
             <Route path="/cv" element={<CV />} />
             <Route path="/news" element={<News />} />
             <Route path="/teaching" element={<Teaching />} />
+            <Route path="/animals" element={<Animals />} />
+            <Route path="/sports" element={<Sports />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </Layout>
