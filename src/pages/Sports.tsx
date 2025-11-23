@@ -39,7 +39,7 @@ const Sports = () => {
                     part of my daily routine, shaping my resilience and focus,
                     qualities that naturally carry over into my research work.
                 </p>
-                <div className="gap-4">
+                <div className="mt-6">
                     <img
                         src="/images/boxing.jpg"
                         alt="Boxing"
