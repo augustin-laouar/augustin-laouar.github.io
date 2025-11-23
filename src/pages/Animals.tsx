@@ -37,8 +37,7 @@ const Animals = () => {
             <p className="text-muted-foreground leading-relaxed">
               Suki is a Russian Blue cat, born in April 2025 and adopted in
               September 2025. Intelligent, affectionate, and a real ball of 
-              energy, she brings an incredible amount of life and curiosity to 
-              the home.
+              energy.
             </p>
             <img
                 src="/images/suki.jpg"
