@@ -43,7 +43,7 @@ const Animals = () => {
             <img
               src="/images/suki.jpg"
               alt="Suki"
-              className="w-full h-64 object-cover rounded-lg mb-4 shadow"
+              className="w-full max-h-80 object-contain rounded-lg mb-4 bg-black/5 p-2 shadow mx-auto"
             />
           </div>
 
@@ -60,7 +60,7 @@ const Animals = () => {
             <img
               src="/images/jack.jpg"
               alt="Jack"
-              className="w-full h-64 object-cover rounded-lg mb-4 shadow"
+              className="w-full max-h-80 object-contain rounded-lg mb-4 bg-black/5 p-2 shadow mx-auto"
             />
           </div>
 
@@ -75,7 +75,7 @@ const Animals = () => {
             <img
               src="/images/tuti.jpg"
               alt="Tuti"
-              className="w-full h-64 object-cover rounded-lg mb-4 shadow"
+              className="w-full max-h-80 object-contain rounded-lg mb-4 bg-black/5 p-2 shadow mx-auto"
             />
           </div>
 
