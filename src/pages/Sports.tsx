@@ -62,13 +62,13 @@ const Sports = () => {
                 src="/images/climbing.jpg"
                 alt="Me climbing"
                 className="w-full max-w-md mx-auto rounded-xl object-cover"
-                style={{ maxHeight: "500px" }}  
+                style={{ maxHeight: "420px" }}  
                 />
                 <img
                 src="/images/ski.jpg"
                 alt="Me Skiing"
                 className="w-full max-w-md mx-auto rounded-xl object-cover"
-                style={{ maxHeight: "500px" }}  
+                style={{ maxHeight: "420px" }}  
                 />
             </div>
             </div>
