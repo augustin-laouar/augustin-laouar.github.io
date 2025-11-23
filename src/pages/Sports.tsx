@@ -32,8 +32,8 @@ const Sports = () => {
                 <p className="text-muted-foreground leading-relaxed">
                     I am a French elite amateur boxer and have been training since
                     2017. Over the years, I have competed in several dozen amateur
-                    fights, gaining both experience and discipline in the ring. I am
-                    currently licensed at the Rillieux-la-Pape Boxing Club (69), where
+                    fights. I am currently licensed at the Rillieux-la-Pape Boxing 
+                    Club (Near Lyon, France), where
                     I train under the guidance of Hacine Cherifi, former WBC
                     Middleweight World Champion (1998). Boxing has become a central
                     part of my daily routine, shaping my resilience and focus,
