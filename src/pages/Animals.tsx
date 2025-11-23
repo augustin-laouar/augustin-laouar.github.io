@@ -43,7 +43,7 @@ const Animals = () => {
             <img
               src="/images/suki.jpg"
               alt="Suki"
-              className="w-full max-h-80 object-contain rounded-lg mb-4 bg-black/5 p-2 shadow mx-auto"
+              className="w-full max-h-[28rem] object-contain rounded-xl shadow mx-auto"
             />
           </div>
 
