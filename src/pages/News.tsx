@@ -62,16 +62,9 @@ const News = () => {
 
           <div className="mt-12 p-6 bg-muted/50 rounded-lg text-center">
             <p className="text-muted-foreground">
-              Want to stay updated? Follow me on{" "}
+              Want to stay updated? Let's connect on{" "}
               <a
-                href="https://twitter.com"
-                className="text-primary hover:underline"
-              >
-                Twitter
-              </a>{" "}
-              or{" "}
-              <a
-                href="https://linkedin.com"
+                href="www.linkedin.com/in/augustin-laouar-b3b791225/"
                 className="text-primary hover:underline"
               >
                 LinkedIn
