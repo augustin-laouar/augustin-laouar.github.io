@@ -59,9 +59,10 @@ const Animals = () => {
               and loved by everyone.
             </p>
             <img
-              src="/images/jack.jpg"
-              alt="Jack"
-              className="w-full max-h-[28rem] object-contain rounded-xl shadow mx-auto"
+                src="/images/jack.jpg"
+                alt="Jack"
+                className="w-full max-w-md mx-auto rounded-xl object-cover"
+                style={{ maxHeight: "500px" }}              
             />
           </div>
 
@@ -74,9 +75,10 @@ const Animals = () => {
               joy and energy to everyday life.
             </p>
             <img
-              src="/images/tuti.jpg"
-              alt="Tuti"
-              className="w-full max-h-[28rem] object-contain rounded-xl shadow mx-auto"
+                src="/images/tuti.jpg"
+                alt="Tuti"
+                className="w-full max-w-md mx-auto rounded-xl object-cover"
+                style={{ maxHeight: "500px" }}  
             />
           </div>
 
