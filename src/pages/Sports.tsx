@@ -42,7 +42,7 @@ const Sports = () => {
             <img
                 src="/images/boxing.jpg"
                 alt="Boxing"
-                className="w-full h-auto rounded-lg object-cover mb-6 shadow"
+                className="w-full max-h-96 object-contain rounded-lg mb-6 bg-black/5 p-2 shadow mx-auto"
             />
             </div>
 
@@ -59,13 +59,13 @@ const Sports = () => {
             <div className="grid grid-cols-2 gap-4">
                 <img
                 src="/images/climbing.jpg"
-                alt="Sport 1"
-                className="w-full h-48 object-cover rounded-lg shadow"
+                alt="Me climbing"
+                className="w-full max-h-48 object-contain rounded-lg bg-black/5 p-2 shadow mx-auto"
                 />
                 <img
                 src="/images/ski.jpg"
-                alt="Sport 2"
-                className="w-full h-48 object-cover rounded-lg shadow"
+                alt="Me Skiing"
+                className="w-full max-h-48 object-contain rounded-lg bg-black/5 p-2 shadow mx-auto"
                 />
             </div>
             </div>
