@@ -19,9 +19,7 @@ const Sports = () => {
         </h1>
 
         <p className="text-lg text-muted-foreground leading-relaxed mb-10">
-          Strength training and combat sports play an important role in my daily
-          routine. They provide balance, focus, and discipline — qualities that
-          directly support my academic work.
+        Sports play an important role in my daily routine. They provide balance, focus, and discipline, qualities that directly support my academic work.        
         </p>
 
         <div className="space-y-12">
