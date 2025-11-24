@@ -66,11 +66,11 @@ const About = () => {
                 <h3 className="font-serif font-semibold text-lg mb-4">Contact</h3>
                 <div className="space-y-3">
                   <a
-                    href="mailto:augustin.laouar@ens-lyon.fr"
+                    href="mailto:name.lastname@ens-lyon.fr"
                     className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors"
                   >
                     <Mail className="h-4 w-4" />
-                    <span className="text-sm">augustin.laouar@ens-lyon.fr</span>
+                    <span className="text-sm">name.lastname@ens-lyon.fr</span>
                   </a>
 
                   <a
