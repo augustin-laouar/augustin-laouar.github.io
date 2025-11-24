@@ -81,7 +81,7 @@ const About = () => {
             </div>
           </div>
 
-          {/* RESEARCH INTERESTS */}
+          {/* RESEARCH INTERESTS
           <section>
             <h2 className="text-3xl font-serif font-semibold mb-6">
               Research Interests
@@ -97,7 +97,7 @@ const About = () => {
                 </ul>
               </div>
             </div>
-          </section>
+          </section> */}
 
           {/* BEYOND RESEARCH */}
           <section className="mt-16">

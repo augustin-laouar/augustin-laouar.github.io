@@ -15,7 +15,7 @@ const Sports = () => {
         </Link>
 
         <h1 className="text-4xl sm:text-5xl font-serif font-bold mb-6">
-          Sports & Training
+          Sports
         </h1>
 
         <p className="text-lg text-muted-foreground leading-relaxed mb-10">
