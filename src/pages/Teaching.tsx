@@ -35,7 +35,7 @@ const Teaching = () => {
                 <Button asChild>
                   <a href="/teaching/l3-rust.pdf" download>
                     <FileDown className="mr-2 h-4 w-4" />
-                    Download
+                    Download (english version)
                   </a>
                 </Button>
               </div>
@@ -61,7 +61,7 @@ const Teaching = () => {
                 <Button asChild>
                   <a href="/teaching/m2-lab1.pdf" download>
                     <FileDown className="mr-2 h-4 w-4" />
-                    Download
+                    Download (french version)
                   </a>
                 </Button>
               </div>
@@ -76,7 +76,7 @@ const Teaching = () => {
                 <Button asChild>
                   <a href="/teaching/m2-lab2.pdf" download>
                     <FileDown className="mr-2 h-4 w-4" />
-                    Download
+                    Download (french version)
                   </a>
                 </Button>
               </div>
@@ -91,7 +91,7 @@ const Teaching = () => {
                 <Button asChild>
                   <a href="/teaching/m2-lab3.pdf" download>
                     <FileDown className="mr-2 h-4 w-4" />
-                    Download
+                    Download (french version)
                   </a>
                 </Button>
               </div>
