@@ -32,6 +32,22 @@ const About = () => {
                 the technologies we create. I am passionate about making the
                 Internet more transparent and respectful of users' privacy.
               </p>
+
+              <h2 className="text-3xl font-serif font-semibold mb-4">Beyond Research</h2>
+              <p>
+                Outside of research, I enjoy spending time with animals and practicing
+                boxing and various other sports. You can learn more below.
+              </p>
+
+              <div className="flex flex-col sm:flex-row gap-4">
+                <Button asChild variant="outline">
+                  <Link to="/animals">My Animals</Link>
+                </Button>
+
+                <Button asChild variant="outline">
+                  <Link to="/sports">Sports</Link>
+                </Button>
+              </div>
             </div>
 
             {/* RIGHT BLOCK (PHOTO + CONTACT) */}
