@@ -46,6 +46,9 @@ const Sports = () => {
                         className="w-full max-w-md mx-auto rounded-xl object-cover"
                         style={{ maxHeight: "500px" }}              
                     />
+                    <p className="text-sm text-muted-foreground text-center mt-3">
+                    Me and my coach Hacine Cherifi before a boxing bout
+                    </p>
                 </div>
             </div>
 
