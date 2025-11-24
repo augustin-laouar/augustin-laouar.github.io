@@ -20,7 +20,7 @@ const Teaching = () => {
           {/* Course 1 */}
           <section className="mb-16">
             <h2 className="text-3xl font-serif font-semibold mb-4">
-              Programming — Licence 3
+              Programming — Licence 3 ENS Lyon
             </h2>
 
             <div className="space-y-4">
@@ -46,7 +46,7 @@ const Teaching = () => {
           {/* Course 2 */}
           <section className="mb-16">
             <h2 className="text-3xl font-serif font-semibold mb-4">
-              Programming — Master 2 Agrégation
+              Programming — Master 2 Agrégation ENS Lyon
             </h2>
 
             <div className="space-y-4">
