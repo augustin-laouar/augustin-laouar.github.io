@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://augustinlaouar.com/</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://augustinlaouar.com/about</loc>
+  </url>
+
+  <url>
+    <loc>https://augustinlaouar.com/publications</loc>
+  </url>
+
+  <url>
+    <loc>https://augustinlaouar.com/cv</loc>
+  </url>
+
+  <url>
+    <loc>https://augustinlaouar.com/teaching</loc>
+  </url>
+
+  <url>
+    <loc>https://augustinlaouar.com/news</loc>
+  </url>
+
+  <url>
+    <loc>https://augustinlaouar.com/sports</loc>
+  </url>
+
+  <url>
+    <loc>https://augustinlaouar.com/animals</loc>
+  </url>
+</urlset>
