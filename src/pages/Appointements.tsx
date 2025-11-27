@@ -52,11 +52,11 @@ const Appointment = () => {
       <div className="max-w-lg mx-auto space-y-12 text-center">
 
         <h1 className="text-4xl font-serif font-bold">
-          Let’s hang out
+          Let's hang out
         </h1>
 
         <p className="text-xl text-muted-foreground max-w-md mx-auto">
-          Up for a crazy hang out?
+          Up for hang out very soon?
         </p>
 
         {!submitted ? (
