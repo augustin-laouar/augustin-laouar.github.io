@@ -22,26 +22,26 @@ const firebaseConfig = {
   measurementId: "G-YKDD5KVCFG"
 };
 
-// ---- Initialize Firebase ----
+// Initialize Firebase
 const app = initializeApp(firebaseConfig);
-getAnalytics(app); // optional but harmless
+getAnalytics(app);
 const db = getFirestore(app);
-
-// -----------------------
 
 const Appointment = () => {
   const [yesSelected, setYesSelected] = useState(false);
   const [dateValue, setDateValue] = useState("");
+  const [timeValue, setTimeValue] = useState("");
   const [submitted, setSubmitted] = useState(false);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
 
-    if (!yesSelected || !dateValue) return;
+    if (!yesSelected || !dateValue || !timeValue) return;
 
     await addDoc(collection(db, "appointments"), {
       createdAt: serverTimestamp(),
-      dateChosen: dateValue,
+      date: dateValue,
+      time: timeValue,
     });
 
     setSubmitted(true);
@@ -49,14 +49,16 @@ const Appointment = () => {
 
   return (
     <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-20">
-      <div className="max-w-lg mx-auto space-y-10 text-center">
+      <div className="max-w-lg mx-auto space-y-12 text-center">
 
         <h1 className="text-4xl font-serif font-bold">
           Let’s hang out
         </h1>
+
         <p className="text-xl text-muted-foreground max-w-md mx-auto">
           Up for a crazy hang out?
         </p>
+
         {!submitted ? (
           <form onSubmit={handleSubmit} className="space-y-6">
 
@@ -80,7 +82,9 @@ const Appointment = () => {
 
             {/* DATE */}
             <div>
-              <label className="block text-left font-medium mb-1">Date</label>
+              <label className="block text-left font-medium mb-1">
+                Date
+              </label>
               <input
                 type="date"
                 value={dateValue}
@@ -90,13 +94,27 @@ const Appointment = () => {
               />
             </div>
 
-            {/* WHERE (DISABLED) */}
+            {/* TIME */}
+            <div>
+              <label className="block text-left font-medium mb-1">
+                Time
+              </label>
+              <input
+                type="time"
+                value={timeValue}
+                onChange={(e) => setTimeValue(e.target.value)}
+                className="w-full p-3 border rounded-md bg-background"
+                required
+              />
+            </div>
+
+            {/* WHERE */}
             <div>
               <label className="block text-left font-medium mb-1">Where?</label>
               <input
                 type="text"
                 disabled
-                placeholder="Trust me, I get it"
+                placeholder="Trust me, I got it."
                 className="w-full p-3 border rounded-md bg-muted cursor-not-allowed text-muted-foreground"
               />
             </div>
