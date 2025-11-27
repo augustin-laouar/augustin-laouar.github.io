@@ -64,8 +64,10 @@ const News = () => {
             <p className="text-muted-foreground">
               Want to stay updated? Let's connect on{" "}
               <a
-                href="www.linkedin.com/in/augustin-laouar-b3b791225/"
-                className="text-primary hover:underline"
+                href="https://www.linkedin.com/in/augustin-laouar-b3b791225/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors"
               >
                 LinkedIn
               </a>
