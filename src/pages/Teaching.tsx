@@ -40,6 +40,20 @@ const Teaching = () => {
                 </Button>
               </div>
 
+              <div className="border border-border rounded-lg p-4 flex items-center justify-between">
+                <div>
+                  <h3 className="font-semibold">Introduction to CI/CD pipelines</h3>
+                  <p className="text-sm text-muted-foreground">
+                    A small lab designed to introduce students to CI/CD pipelines using gitlab.
+                  </p>
+                </div>
+                <Button asChild>
+                  <a href="/teaching/l3-cicd.pdf" download>
+                    <FileDown className="mr-2 h-4 w-4" />
+                    Download (french version)
+                  </a>
+                </Button>
+              </div>
             </div>
           </section>
 
