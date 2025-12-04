@@ -92,6 +92,15 @@ const About = () => {
                     <Linkedin className="h-4 w-4" />
                     <span className="text-sm">LinkedIn Profile</span>
                   </a>
+                  <a
+                    href="https://scholar.google.fr/citations?user=BY53MKIAAAAJ"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors"
+                  >
+                    <GraduationCap className="h-4 w-4" />
+                    <span className="text-sm">Google Scholar Profile</span>
+                  </a>
                 </div>
               </div>
             </div>
