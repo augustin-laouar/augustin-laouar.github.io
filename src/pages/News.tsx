@@ -61,13 +61,13 @@ const News = () => {
           </div>
 
           <div className="mt-12 p-6 bg-muted/50 rounded-lg text-center">
-            <p className="text-muted-foreground">
-              Want to stay updated? Let's connect on{" "}
+            <p className="text-muted-foreground inline-flex items-center gap-2 justify-center">
+              Want to stay updated? Let's connect on
               <a
                 href="https://www.linkedin.com/in/augustin-laouar-b3b791225/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors"
+                className="hover:text-primary transition-colors"
               >
                 LinkedIn
               </a>
