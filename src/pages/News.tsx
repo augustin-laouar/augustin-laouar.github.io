@@ -69,7 +69,7 @@ const News = () => {
                 rel="noopener noreferrer"
                 className="text-primary hover:underline mt-3"
               >
-              LinkedIn <ExternalLink className="h-3 w-3" />
+              LinkedIn
               </a>
             </p>
           </div>
