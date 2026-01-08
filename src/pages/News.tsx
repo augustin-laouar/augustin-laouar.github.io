@@ -67,9 +67,9 @@ const News = () => {
                 href="https://www.linkedin.com/in/augustin-laouar-b3b791225/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-primary transition-colors"
+                className="text-primary hover:underline mt-3"
               >
-              LinkedIn
+              LinkedIn <ExternalLink className="h-3 w-3" />
               </a>
             </p>
           </div>
