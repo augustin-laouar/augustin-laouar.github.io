@@ -41,7 +41,7 @@ const About = () => {
 
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button asChild variant="outline">
-                  <Link to="/animals">My Animals</Link>
+                  <Link to="/animals">Animals</Link>
                 </Button>
 
                 <Button asChild variant="outline">
@@ -105,24 +105,6 @@ const About = () => {
               </div>
             </div>
           </div>
-
-          {/* RESEARCH INTERESTS
-          <section>
-            <h2 className="text-3xl font-serif font-semibold mb-6">
-              Research Interests
-            </h2>
-
-            <div className="grid sm:grid-cols-2 gap-4">
-              <div className="bg-card border border-border p-4 rounded-lg">
-                <h3 className="font-semibold mb-2">Geolocation systems</h3>
-                <ul className="text-sm text-muted-foreground space-y-1">
-                  <li>• Network Performances</li>
-                  <li>• Users' privacy</li>
-                  <li>• System Architecture</li>
-                </ul>
-              </div>
-            </div>
-          </section> */}
         </div>
       </div>
     </div>

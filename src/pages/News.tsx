@@ -67,7 +67,7 @@ const News = () => {
                 href="https://www.linkedin.com/in/augustin-laouar-b3b791225/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-primary hover:underline mt-3"
+                className="text-primary hover:underline"
               >
               LinkedIn
               </a>
