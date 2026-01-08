@@ -69,7 +69,7 @@ const News = () => {
                 rel="noopener noreferrer"
                 className="hover:text-primary transition-colors"
               >
-                LinkedIn
+               LinkedIn
               </a>
             </p>
           </div>
