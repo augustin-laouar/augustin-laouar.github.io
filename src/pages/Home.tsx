@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, ExternalLink} from "lucide-react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 
@@ -82,6 +82,17 @@ const Home = () => {
                 <p className="text-muted-foreground">
                   {item.description}
                 </p>
+
+                {item.link && (
+                    <a
+                      href={item.link}
+                      className="inline-flex items-center gap-1 text-sm text-primary hover:underline mt-3"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Read more <ExternalLink className="h-3 w-3" />
+                    </a>
+                  )}
               </div>
             ))}
           </div>
