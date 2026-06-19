@@ -63,7 +63,9 @@ const Publications = () => {
           </p>
 
           <div className="space-y-8">
-            {publications.map((pub, index) => (
+            {[...publications]
+              .sort((a, b) => b.year - a.year)
+              .map((pub, index) => (
               <article key={index} className="bg-card border border-border rounded-lg p-6 hover:shadow-md transition-shadow">
                 <div className="flex items-start gap-4">
                   <FileText className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
@@ -108,7 +110,7 @@ const Publications = () => {
                   </div>
                 </div>
               </article>
-            ))}
+              ))}
           </div>
         </div>
       </div>
