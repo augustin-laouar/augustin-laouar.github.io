@@ -238,9 +238,9 @@ const CV = () => {
 
               <div className="bg-card border border-border rounded-lg p-4">
                 <h3 className="font-semibold">
-                  SoK: Privacy Analysis of Geolocation Data Infrastructures
+                  SoK: Mapping the Privacy Landscape of Geolocation Ecosystems
                 </h3>
-                <p className="text-sm text-muted-foreground">In preparation</p>
+                <p className="text-sm text-muted-foreground">PoPETs 2026</p>
               </div>
             </div>
           </section>
