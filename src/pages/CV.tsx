@@ -229,18 +229,17 @@ const CV = () => {
             <div className="space-y-4">
               <div className="bg-card border border-border rounded-lg p-4">
                 <h3 className="font-semibold">
+                  SoK: Mapping the Privacy Landscape of Geolocation Ecosystems
+                </h3>
+                <p className="text-sm text-muted-foreground">PoPETs 2026</p>
+              </div>
+              <div className="bg-card border border-border rounded-lg p-4">
+                <h3 className="font-semibold">
                   Rethinking Geolocalization on the Internet
                 </h3>
                 <p className="text-sm text-muted-foreground">
                   ACM HotNets 2025
                 </p>
-              </div>
-
-              <div className="bg-card border border-border rounded-lg p-4">
-                <h3 className="font-semibold">
-                  SoK: Mapping the Privacy Landscape of Geolocation Ecosystems
-                </h3>
-                <p className="text-sm text-muted-foreground">PoPETs 2026</p>
               </div>
             </div>
           </section>
