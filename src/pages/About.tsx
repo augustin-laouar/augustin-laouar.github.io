@@ -41,7 +41,7 @@ const About = () => {
 
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button asChild variant="outline">
-                  <Link to="/animals">Animals</Link>
+                  <Link to="/pets">Pets</Link>
                 </Button>
 
                 <Button asChild variant="outline">

@@ -1,7 +1,7 @@
 import { ArrowLeft } from "lucide-react";
 import { Link } from "react-router-dom";
 
-const Animals = () => {
+const Pets = () => {
   return (
     <div className="page-transition">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-20 max-w-3xl">
@@ -15,7 +15,7 @@ const Animals = () => {
         </Link>
 
         <h1 className="text-4xl sm:text-5xl font-serif font-bold mb-6">
-          My Animals
+          My Pets
         </h1>
 
         {/* INTRO */}
@@ -88,4 +88,4 @@ const Animals = () => {
   );
 };
 
-export default Animals;
+export default Pets;

@@ -10,7 +10,7 @@ import Publications from "./pages/Publications";
 import CV from "./pages/CV";
 import News from "./pages/News";
 import Teaching from "./pages/Teaching";
-import Animals from "./pages/Animals";
+import Pets from "./pages/Pets";
 import Sports from "./pages/Sports";
 import NotFound from "./pages/NotFound";
 
@@ -30,7 +30,7 @@ const App = () => (
             <Route path="/cv" element={<CV />} />
             <Route path="/news" element={<News />} />
             <Route path="/teaching" element={<Teaching />} />
-            <Route path="/animals" element={<Animals />} />
+            <Route path="/pets" element={<Pets />} />
             <Route path="/sports" element={<Sports />} />
 \            <Route path="*" element={<NotFound />} />
           </Routes>
