@@ -27,6 +27,17 @@ const Publications = () => {
         doi: "https://dl.acm.org/doi/10.1145/3772356.3772421",
       },
     },
+    {
+      title: "SoK: Mapping the Privacy Landscape of Geolocation Ecosystems",
+      authors: "Augustin Laouar, Paul Lachat, Loïc Desgeorges, Mathieu Cunche, Vincent Roca, Pascale Vicat-Blanc, Francesco Bronzino",
+      venue: "PoPETs",
+      year: 2025,
+      type: "conference",
+      links: {
+        pdf: "",
+        doi: "",
+      },
+    }
   ];
 
   const getTypeColor = (type: string) => {
