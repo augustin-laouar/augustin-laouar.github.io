@@ -8,7 +8,7 @@
   {
     "date": "2025-09-19",
     "title": "Paper accepted to ACM HotNets 2025",
-    "description": "Our paper \"Rethinking Geolocalization on the Internet\" has been accepted and will be presented at HotNets 2025.",
+    "description": "Our paper \"Rethinking Geolocalization on the Internet\" has been accepted and will be presented at HotNets 2025 in Washington D.C., United States.",
     "link": "https://conferences.sigcomm.org/hotnets/2025/papers/hotnets25-final353.pdf"
   },
   {
@@ -17,6 +17,12 @@
     "description": "A science communication blog post presenting our work, \"Rethinking Geolocalization on the Internet\".",
     "link": "https://pulse.internetsociety.org/blog/rethinking-geolocation-on-the-internet"
   },
+  {
+    "date": "2026-06-01",
+    "title": "Paper accepted to PoPETs 2026",
+    "description": "Our paper \"SoK: Mapping the Privacy Landscape of Geolocation Ecosystems\" has been accepted and will be presented at PoPETs 2026 in Calgary, Canada.",
+    "link": "https://petsymposium.org/popets/2026/"
+  }
   {
     "date": "2026-06-01",
     "title": "Joined IPinfo as a research intern",
