@@ -2,13 +2,25 @@
   {
     "date": "2025-12-01",
     "title": "Presentation at the IAB Workshop on IP Address Geolocation",
-    "description": "Our work 'Rethinking Geolocalization on the Internet' will be presented at the IAB Workshop on IP Address Geolocation 2025.",
+    "description": "Our work \"Rethinking Geolocalization on the Internet\" will be presented at the IAB Workshop on IP Address Geolocation 2025.",
     "link": "https://datatracker.ietf.org/group/ipgeows/about/"
   },
   {
     "date": "2025-09-19",
     "title": "Paper accepted to ACM HotNets 2025",
-    "description": "Our paper 'Rethinking Geolocalization on the Internet' has been accepted and will be presented at HotNets 2025.",
+    "description": "Our paper \"Rethinking Geolocalization on the Internet\" has been accepted and will be presented at HotNets 2025.",
     "link": "https://conferences.sigcomm.org/hotnets/2025/papers/hotnets25-final353.pdf"
+  },
+  {
+    "date": "2026-01-13",
+    "title": "Blog post on Internet Society Pulse",
+    "description": "A science communication blog post presenting our work, \"Rethinking Geolocalization on the Internet\".",
+    "link": "https://pulse.internetsociety.org/blog/rethinking-geolocation-on-the-internet"
+  },
+  {
+    "date": "2026-06-01",
+    "title": "Joined IPinfo as a research intern",
+    "description": "I recently joined IPinfo for a 4-month research internship, working on IPv6 enumeration.",
+    "link": "https://ipinfo.io/blog/research-interns-2026"
   }
 ]

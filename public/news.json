@@ -16,5 +16,11 @@
     "title": "Blog post on Internet Society Pulse",
     "description": "A science communication blog post presenting our work, \"Rethinking Geolocalization on the Internet\".",
     "link": "https://pulse.internetsociety.org/blog/rethinking-geolocation-on-the-internet"
+  },
+  {
+    "date": "2026-06-01",
+    "title": "Joined IPinfo as a research intern",
+    "description": "I recently joined IPinfo for a 4-month research internship, working on IPv6 enumeration.",
+    "link": "https://ipinfo.io/blog/research-interns-2026"
   }
 ]
