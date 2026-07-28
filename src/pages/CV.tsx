@@ -149,7 +149,7 @@ const CV = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                    </a> IPinfo • June 2026 – Sept 2026
+                    IPinfo</a> • June 2026 – Sept 2026
                 </p>
                 <ul className="mt-2 space-y-1 text-muted-foreground">
                   <li>• Research on rDNS zone walking to improve IPv6 geolocation.</li>
@@ -167,7 +167,7 @@ const CV = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      Viveris
+                    Viveris
                     </a> • Sept 2023 – Sept 2024
                 </p>
                 <ul className="mt-2 space-y-1 text-muted-foreground">
@@ -192,7 +192,7 @@ const CV = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                    </a> WorldLine • Apr 2022 – Aug 2022
+                    WorldLine </a> • Apr 2022 – Aug 2022
                 </p>
                 <ul className="mt-2 space-y-1 text-muted-foreground">
                   <li>• Built financial tools using Java Spring and PostgreSQL.</li>
