@@ -54,15 +54,7 @@ const CV = () => {
                     Université Claude Bernard Lyon 1, 2022 - 2024
                   </p>
                   <p className="mt-2">
-                    Graduated with a GPA of 3.9/4.0 and completed an
-                    apprenticeship as a network engineer at{" "}
-                    <a
-                      href="https://www.viveris.fr"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Viveris
-                    </a>.
+                    Graduated with a GPA of 3.9/4.0
                   </p>
                 </div>
               </div>
@@ -75,15 +67,7 @@ const CV = () => {
                     Université de Lorraine, 2019 - 2022
                   </p>
                   <p className="mt-2">
-                    Graduated with a GPA of 4.0/4.0 and completed an internship
-                    as a software engineer at{" "}
-                    <a
-                      href="https://worldline.com/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      WorldLine
-                    </a>.
+                    Graduated with a GPA of 4.0/4.0 
                   </p>
                 </div>
               </div>
@@ -157,10 +141,34 @@ const CV = () => {
 
               <div>
                 <h3 className="text-xl font-semibold">
-                  Network Engineer Apprentice
+                  Research Intern
                 </h3>
                 <p className="text-muted-foreground">
-                  Viveris • Sept 2023 – Sept 2024
+                    <a
+                      href="https://ipinfo.io/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                    </a> IPinfo • June 2026 – Sept 2026
+                </p>
+                <ul className="mt-2 space-y-1 text-muted-foreground">
+                  <li>• Research on rDNS zone walking to improve IPv6 geolocation.</li>
+                  <li>• Processed large-scale datasets (tens of TB) using BigQuery and GCS.</li>
+                </ul>
+              </div>
+
+              <div>
+                <h3 className="text-xl font-semibold">
+                  Network Engineer
+                </h3>
+                <p className="text-muted-foreground">
+                    <a
+                      href="https://www.viveris.fr"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Viveris
+                    </a> • Sept 2023 – Sept 2024
                 </p>
                 <ul className="mt-2 space-y-1 text-muted-foreground">
                   <li>
@@ -179,7 +187,12 @@ const CV = () => {
                   Software Engineer Intern
                 </h3>
                 <p className="text-muted-foreground">
-                  Worldline • Apr 2022 – Aug 2022
+                    <a
+                      href="https://worldline.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                    </a> WorldLine • Apr 2022 – Aug 2022
                 </p>
                 <ul className="mt-2 space-y-1 text-muted-foreground">
                   <li>• Built financial tools using Java Spring and PostgreSQL.</li>
@@ -321,11 +334,14 @@ const CV = () => {
                 <div className="flex flex-wrap gap-2">
                   {[
                     "RIPE Atlas",
+                    "BigQuery",
+                    "GCS",
                     "Wireshark", 
                     "Ghidra", 
                     "NS-3",
                     "Nmap",
-                    "AWS"
+                    "AWS",
+                    "Retool"
                   ].map((skill) => (
                     <span
                       key={skill}
