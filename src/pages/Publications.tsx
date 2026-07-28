@@ -34,8 +34,8 @@ const Publications = () => {
       year: 2026,
       type: "conference",
       links: {
-        pdf: "",
-        doi: "",
+        pdf: "https://petsymposium.org/popets/2026/popets-2026-0130.pdf",
+        doi: "https://doi.org/10.56553/popets-2026-0130",
       },
     }
   ];
