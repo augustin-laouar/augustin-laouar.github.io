@@ -55,7 +55,7 @@ const About = () => {
               {/* PHOTO */}
               <div className="text-center">
                 <img
-                  src="/images/profile.png"
+                  src="/images/profile.jpg"
                   alt="Profile photo"
                   className="w-52 h-52 rounded-full object-cover mx-auto mb-6 shadow"
                 />
